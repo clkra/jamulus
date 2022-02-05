@@ -1,0 +1,323 @@
+# Configuration options for the Jamulus server
+
+# Uncomment only ONE of these to register the server as public.
+# Leave commented out for a private server.
+
+# Any Genre 1 (was Default)
+#CENTRALSERVER=anygenre1.jamulus.io:22124
+
+# Any Genre 2 (was All Genres)
+#CENTRALSERVER=anygenre2.jamulus.io:22224
+
+# Any Genre 3
+#CENTRALSERVER=anygenre3.jamulus.io:22624
+
+# Genre Rock
+#CENTRALSERVER=rock.jamulus.io:22424
+
+# Genre Jazz
+CENTRALSERVER=jazz.jamulus.io:22324
+
+# Genre Classical/Folk (was Classical/Folk/Choir)
+#CENTRALSERVER=classical.jamulus.io:22524
+
+# Genre Choral/Barbershop
+#CENTRALSERVER=choral.jamulus.io:22724
+
+
+# Set this server name, city and country code (see below).
+# Only needed for a public server.
+#SERVERINFO="ChangeThisServerName;MyCity;224"
+SERVERINFO="MucMusic;Munich;82"
+
+# The port to listen on (default is 22124)
+PORT=22124
+
+# The welcome message, which will be displayed in the chat window.
+# HTML markup can be used.
+#WELCOME="<h2>Welcome to my Jamulus server</h2>This server is run by My Name (myemail@example.com)"
+WELCOME="<h2>Welcome to CK's MucMusic Jamulus Server!</h2> \
+<p>Sometimes we are doing rehearsals here (Thursday evening). The other time it's free for jamming :-) </p> \
+<p>If you like, you can join our Jitsi meeting: https://meet.jit.si/CKsJamulusMucMusic .</p> \
+<p>Some ressources for Jam sessions: <ul><li>Realbook Search: http://therealbook.info/ </li><li>Online Chords: https://www.jazzstudies.us/ </li></ul></p> "
+
+# The maximum number of clients allowed to connect at once
+CHANNELS=12
+
+# Uncomment to enable multithreading on the server
+MULTITHREADING=yes
+
+# If not specified, logfile will default to this.
+#LOGFILE=/var/log/jamulus/jamulus.log
+
+# Uncomment to enable recording and specify directory
+#RECORDING=/var/spool/jamulus
+
+# Extra options to the server
+#OPTS=""
+
+# List of valid country codes (from QT)
+#
+#   0: Not specified
+#   1: Afghanistan
+#   2: Albania
+#   3: Algeria
+#   4: American Samoa
+#   5: Andorra
+#   6: Angola
+#   7: Anguilla
+#   8: Antarctica
+#   9: Antigua And Barbuda
+#  10: Argentina
+#  11: Armenia
+#  12: Aruba
+#  13: Australia
+#  14: Austria
+#  15: Azerbaijan
+#  16: Bahamas
+#  17: Bahrain
+#  18: Bangladesh
+#  19: Barbados
+#  20: Belarus
+#  21: Belgium
+#  22: Belize
+#  23: Benin
+#  24: Bermuda
+#  25: Bhutan
+#  26: Bolivia
+#  27: Bosnia And Herzegowina
+#  28: Botswana
+#  29: Bouvet Island
+#  30: Brazil
+#  31: British Indian Ocean Territory
+#  32: Brunei
+#  33: Bulgaria
+#  34: Burkina Faso
+#  35: Burundi
+#  36: Cambodia
+#  37: Cameroon
+#  38: Canada
+#  39: Cape Verde
+#  40: Cayman Islands
+#  41: Central African Republic
+#  42: Chad
+#  43: Chile
+#  44: China
+#  45: Christmas Island
+#  46: Cocos Islands
+#  47: Colombia
+#  48: Comoros
+#  49: Congo Kinshasa
+#  50: Congo Brazzaville
+#  51: Cook Islands
+#  52: Costa Rica
+#  53: Ivory Coast
+#  54: Croatia
+#  55: Cuba
+#  56: Cyprus
+#  57: Czech Republic
+#  58: Denmark
+#  59: Djibouti
+#  60: Dominica
+#  61: Dominican Republic
+#  62: East Timor
+#  63: Ecuador
+#  64: Egypt
+#  65: El Salvador
+#  66: Equatorial Guinea
+#  67: Eritrea
+#  68: Estonia
+#  69: Ethiopia
+#  70: Falkland Islands
+#  71: Faroe Islands
+#  72: Fiji
+#  73: Finland
+#  74: France
+#  75: Guernsey
+#  76: French Guiana
+#  77: French Polynesia
+#  78: French Southern Territories
+#  79: Gabon
+#  80: Gambia
+#  81: Georgia
+#  82: Germany
+#  83: Ghana
+#  84: Gibraltar
+#  85: Greece
+#  86: Greenland
+#  87: Grenada
+#  88: Guadeloupe
+#  89: Guam
+#  90: Guatemala
+#  91: Guinea
+#  92: Guinea Bissau
+#  93: Guyana
+#  94: Haiti
+#  95: Heard And McDonald Islands
+#  96: Honduras
+#  97: Hong Kong
+#  98: Hungary
+#  99: Iceland
+# 100: India
+# 101: Indonesia
+# 102: Iran
+# 103: Iraq
+# 104: Ireland
+# 105: Israel
+# 106: Italy
+# 107: Jamaica
+# 108: Japan
+# 109: Jordan
+# 110: Kazakhstan
+# 111: Kenya
+# 112: Kiribati
+# 113: North Korea
+# 114: South Korea
+# 115: Kuwait
+# 116: Kyrgyzstan
+# 117: Laos
+# 118: Latvia
+# 119: Lebanon
+# 120: Lesotho
+# 121: Liberia
+# 122: Libya
+# 123: Liechtenstein
+# 124: Lithuania
+# 125: Luxembourg
+# 126: Macau
+# 127: Macedonia
+# 128: Madagascar
+# 129: Malawi
+# 130: Malaysia
+# 131: Maldives
+# 132: Mali
+# 133: Malta
+# 134: Marshall Islands
+# 135: Martinique
+# 136: Mauritania
+# 137: Mauritius
+# 138: Mayotte
+# 139: Mexico
+# 140: Micronesia
+# 141: Moldova
+# 142: Monaco
+# 143: Mongolia
+# 144: Montserrat
+# 145: Morocco
+# 146: Mozambique
+# 147: Myanmar
+# 148: Namibia
+# 149: Nauru Country
+# 150: Nepal
+# 151: Netherlands
+# 152: Cura Sao
+# 153: New Caledonia
+# 154: New Zealand
+# 155: Nicaragua
+# 156: Niger
+# 157: Nigeria
+# 158: Niue
+# 159: Norfolk Island
+# 160: Northern Mariana Islands
+# 161: Norway
+# 162: Oman
+# 163: Pakistan
+# 164: Palau
+# 165: Palestinian Territories
+# 166: Panama
+# 167: Papua New Guinea
+# 168: Paraguay
+# 169: Peru
+# 170: Philippines
+# 171: Pitcairn
+# 172: Poland
+# 173: Portugal
+# 174: Puerto Rico
+# 175: Qatar
+# 176: Reunion
+# 177: Romania
+# 178: Russia
+# 179: Rwanda
+# 180: Saint Kitts And Nevis
+# 181: Saint Lucia
+# 182: Saint Vincent And The Grenadines
+# 183: Samoa
+# 184: San Marino
+# 185: Sao Tome And Principe
+# 186: Saudi Arabia
+# 187: Senegal
+# 188: Seychelles
+# 189: Sierra Leone
+# 190: Singapore
+# 191: Slovakia
+# 192: Slovenia
+# 193: Solomon Islands
+# 194: Somalia
+# 195: South Africa
+# 196: South Georgia And The South Sandwich Islands
+# 197: Spain
+# 198: Sri Lanka
+# 199: Saint Helena
+# 200: Saint Pierre And Miquelon
+# 201: Sudan
+# 202: Suriname
+# 203: Svalbard And Jan Mayen Islands
+# 204: Swaziland
+# 205: Sweden
+# 206: Switzerland
+# 207: Syria
+# 208: Taiwan
+# 209: Tajikistan
+# 210: Tanzania
+# 211: Thailand
+# 212: Togo
+# 213: Tokelau Country
+# 214: Tonga
+# 215: Trinidad And Tobago
+# 216: Tunisia
+# 217: Turkey
+# 218: Turkmenistan
+# 219: Turks And Caicos Islands
+# 220: Tuvalu Country
+# 221: Uganda
+# 222: Ukraine
+# 223: United Arab Emirates
+# 224: United Kingdom
+# 225: United States
+# 226: United States Minor Outlying Islands
+# 227: Uruguay
+# 228: Uzbekistan
+# 229: Vanuatu
+# 230: Vatican City State
+# 231: Venezuela
+# 232: Vietnam
+# 233: British Virgin Islands
+# 234: United States Virgin Islands
+# 235: Wallis And Futuna Islands
+# 236: Western Sahara
+# 237: Yemen
+# 238: Canary Islands
+# 239: Zambia
+# 240: Zimbabwe
+# 241: Clipperton Island
+# 242: Montenegro
+# 243: Serbia
+# 244: Saint Barthelemy
+# 245: Saint Martin
+# 246: Latin America
+# 247: Ascension Island
+# 248: Aland Islands
+# 249: Diego Garcia
+# 250: Ceuta And Melilla
+# 251: Isle Of Man
+# 252: Jersey
+# 253: Tristan Da Cunha
+# 254: South Sudan
+# 255: Bonaire
+# 256: Sint Maarten
+# 257: Kosovo
+# 258: European Union
+# 259: Outlying Oceania
+# 260: World
+# 261: Europe
+
