@@ -42,7 +42,7 @@ WELCOME="<h2>Welcome to CK's MilMusic Jamulus Server!</h2> \
 <p>Some ressources for Jam sessions: <ul><li>Realbook Search: http://therealbook.info/ </li><li>Online Chords: https://www.jazzstudies.us/ </li></ul></p> "
 
 # The maximum number of clients allowed to connect at once
-CHANNELS=15
+CHANNELS=10
 
 # Uncomment to enable multithreading on the server
 MULTITHREADING=yes
